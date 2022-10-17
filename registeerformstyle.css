@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+
+}
+.fullform{
+    background-color: aqua;
+    max-width: 100%;
+    overflow:hidden ;
+    border: 10px;
+    border-radius: 5%;
+    
+}
+.heading{
+    background-color: rgb(124, 211, 211);
+    margin-top: 0;
+
+}
+.register{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    
+
+}
+.form{
+    padding: 10px;
+    max-height: 1000px
+    
+}
+.formcontent{
+    margin:0;
+    padding:auto;
+    position: relative;
+    padding-bottom: 10px;
+}
+.formcontent label{
+    padding: 5px;
+    display: inline-block;
+
+}
+.formcontent input{
+    display: block;
+    font-size: 4 pt;
+    padding: 5 px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.gender{
+    margin: 0;
+    display: inline-block;
+}
+
+.twopart{
+    margin: 10px;
+}
+.formcontent input:focus{
+    outline: none;
+    border-color: blueviolet;
+}
+.success{
+    color: green;
+    border: green;
+}
+.formcontent.success input{
+    color: red;
+    border: red;
+}
+.formcontent small{
+    visibility: hidden;
+    color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.formcontent.error small{
+    visibility: visible;
+}
+.formcontent.success small{
+    visibility: hidden;
+}
+.form button{
+    display:block;
+    background-color: black;
+    color: red;
+    width: auto;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.seprate{
+    display: flex;
+}

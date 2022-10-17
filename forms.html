@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form</title>
+
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+
+    <form class="register_form" ; margin: 50px; background-color: rgb(129, 190, 79)">
+        <h1 id="h1">REGISTRATION FORM</h1><br>
+        <div id="t1">Please Enter Your Registration Details</div>
+        <table width="100%" >
+            <tr>
+                <td width="50%">
+                    <div class="format">Name<sup style=color:red>*</sup></br>
+                        <input type="text" name="name" placeholder="enter your name" autofocus></div>
+                </td>
+                <td width="50%" >
+                    <div class="format" id="dob">dob<sup>*</sup><br>
+                        <input class="format" type="date" name="bday"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="format" id="age">age<sup>*</sup><br>
+                        <input type="number" name="number" placeholder="enter your age" max="100" m>
+                    </div>
+                </td>
+                <td>
+                    <div class="format">mobile number<sup>*</sup></div>
+                    <select name="qualification" size="4" multiple>
+
+                        <option value="b.tech">b.tech</option>
+                        <option value="b.sc">B.SC</option>
+                        <option value="B.A">B.A</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="format1">gender<sup>*</sup><br>
+                        <input type="radio" name="gender" checked>male
+                        <input type="radio" name="gender">Female
+                        <input type="radio" name="gender"> Other</div>
+                </td>
+                <td>
+                    <div class="format">email</div>
+                    <input class="format" type="email" name="email" placeholder="enter your mail" maxlength="25">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="format">mobile number<sup>*</sup></div>
+                    <select>
+
+                        <option>+91-In</option>
+                        <option>+91-In</option>
+                        <option>+91-In</option>
+                    </select>
+
+                    <input type="number" name="number" placeholder="enter your mobile number" maxlength="10">
+                </td>
+            </tr>
+        </table><br>
+        <button id="subbutton">SUBMIT</button>
+
+
+    </form>
+</body>
+
+</html>

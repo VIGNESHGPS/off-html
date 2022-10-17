@@ -1,0 +1,46 @@
+body {
+  background-color: powderblue;
+}
+
+.register_form {
+  background-color: aquamarine;
+  border-color: black;
+  border: 5mm;
+  margin: 50px;
+}
+
+#h1 {
+  text-align: center;
+  text font-style: serif;
+
+}
+
+#t1 {
+  color: blue;
+  text-align: center;
+  size: 18pt;
+}
+
+.format {
+ width: 50%;
+
+}
+
+#dob {
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+button {
+  text-align: justify;
+  padding: 10px;
+  margin-left: 50%;
+  margin-right: 50%;
+
+}
+
+.format1 {
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
